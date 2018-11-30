@@ -78,12 +78,12 @@ DOMNodeCollection.prototype.parent = function() {
 };
 
 DOMNodeCollection.prototype.find = function(selector) {
-  document.querySelectorAll(selector);
+  let foundNodes = [];
+  this.each(el => {
+    
+  });
+  return foundNodes;
 };
-
-
-
-
 
 module.exports = DOMNodeCollection;
 
